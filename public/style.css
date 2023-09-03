@@ -1,88 +1,69 @@
 body {
-      font-family: Arial, sans-serif;
-          background-color: #333;
-              color: #fff;
-                  margin: 0;
-                      padding: 0;
-                      }
+        font-family: Arial, sans-serif;
+            text-align: center;
+            }
 
-                      .header {
-                          text-align: center;
-                              font-size: 50px;
-                                  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-                                  }
+            h1 {
+                color: #fff;
+                    font-size: 50px;
+                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                        }
 
-                                  .box {
-                                      display: flex;
-                                          flex-direction: column;
-                                              align-items: center;
-                                                  margin: 35px;
-                                                  }
+                        .box {
+                            display: flex;
+                                flex-direction: column;
+                                    align-items: center;
+                                        margin: 35px;
+                                        }
 
-                                                  .row {
-                                                      display: flex;
-                                                          justify-content: center;
-                                                          }
+                                        .row {
+                                            display: flex;
+                                                justify-content: center;
+                                                }
 
-                                                          .btn {
-                                                              width: 75px;
-                                                                  height: 75px;
-                                                                      border: 2px solid #fff;
-                                                                          border-radius: 5px;
-                                                                              font-size: 50px;
-                                                                                  font-weight: 500;
-                                                                                      background-color: rgba(255, 255, 255, 0.8);
-                                                                                          color: #333;
-                                                                                              text-align: center;
-                                                                                                  cursor: pointer;
-                                                                                                      transition: background-color 0.2s, color 0.2s;
-                                                                                                          margin: 5px;
-                                                                                                          }
+                                                .cell {
+                                                    width: 75px;
+                                                        height: 75px;
+                                                            border: 2px solid #000;
+                                                                font-size: 50px;
+                                                                    font-weight: 500;
+                                                                        text-align: center;
+                                                                            background-color: rgba(255, 255, 255, 0.7);
+                                                                                cursor: pointer;
+                                                                                }
 
-                                                                                                          .btn:hover {
-                                                                                                              background-color: rgba(255, 255, 255, 1);
-                                                                                                                  color: #333;
-                                                                                                                  }
+                                                                                .cell:hover {
+                                                                                    background-color: rgba(255, 255, 255, 0.9);
+                                                                                    }
 
-                                                                                                                  .btn:disabled {
-                                                                                                                      color: #000;
-                                                                                                                          cursor: not-allowed;
-                                                                                                                          }
+                                                                                    .result-container {
+                                                                                        background-color: rgba(255, 255, 255, 0.7);
+                                                                                            border: 2px solid #000;
+                                                                                                max-width: 200px;
+                                                                                                    margin: 10px auto;
+                                                                                                        padding: 10px;
+                                                                                                        }
 
-                                                                                                                          .result-container {
-                                                                                                                              background-color: rgba(255, 255, 255, 0.8);
-                                                                                                                                  border: 2px solid #fff;
-                                                                                                                                      text-align: center;
-                                                                                                                                          max-width: 200px;
-                                                                                                                                              margin: 0 auto;
-                                                                                                                                                  padding: 10px;
-                                                                                                                                                      margin-top: 20px;
-                                                                                                                                                      }
+                                                                                                        .result {
+                                                                                                            color: #fff;
+                                                                                                                font-size: 25px;
+                                                                                                                    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+                                                                                                                    }
 
-                                                                                                                                                      .result {
-                                                                                                                                                          color: #fff;
-                                                                                                                                                              font-size: 25px;
-                                                                                                                                                                  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-                                                                                                                                                                  }
+                                                                                                                    .reset {
+                                                                                                                        text-align: center;
+                                                                                                                        }
 
-                                                                                                                                                                  .reset {
-                                                                                                                                                                      text-align: center;
-                                                                                                                                                                          margin-top: 20px;
-                                                                                                                                                                          }
+                                                                                                                        button {
+                                                                                                                            border: 2px solid #000;
+                                                                                                                                color: #000;
+                                                                                                                                    background-color: #fff;
+                                                                                                                                        cursor: pointer;
+                                                                                                                                            transition: background-color 0.3s ease;
+                                                                                                                                            }
 
-                                                                                                                                                                          .reset-btn {
-                                                                                                                                                                              border: 2px solid #000;
-                                                                                                                                                                                  color: #000;
-                                                                                                                                                                                      background-color: #fff;
-                                                                                                                                                                                          padding: 5px 15px;
-                                                                                                                                                                                              font-size: 20px;
-                                                                                                                                                                                                  cursor: pointer;
-                                                                                                                                                                                                      transition: background-color 0.2s, color 0.2s;
-                                                                                                                                                                                                      }
-
-                                                                                                                                                                                                      .reset-btn:hover {
-                                                                                                                                                                                                          background-color: #000;
-                                                                                                                                                                                                              color: #fff;
-                                                                                                                                                                                                              }
-                                                                                                                                                                                                              
+                                                                                                                                            button:hover {
+                                                                                                                                                background-color: #000;
+                                                                                                                                                    color: #fff;
+                                                                                                                                                    }
 }
